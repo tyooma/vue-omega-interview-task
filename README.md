@@ -1,9 +1,7 @@
 # vue-omega-interview-task
 
 ## DEMO
-```
-[DEMO](https://tyooma.github.io/vue-omega-interview-task/)
-```
+- [DEMO](https://tyooma.github.io/vue-omega-interview-task/)
 
 ## Project setup
 ```

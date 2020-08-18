@@ -1,4 +1,5 @@
-// vue.config.js
 module.exports = {
-  publicPath: 'vue-omega-interview-task'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vue-omega-interview-task/'
+    : '/'
 }
