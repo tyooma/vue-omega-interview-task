@@ -1,5 +1,10 @@
 # vue-omega-interview-task
 
+## DEMO
+```
+[DEMO](https://tyooma.github.io/vue-omega-interview-task/)
+```
+
 ## Project setup
 ```
 npm install
@@ -19,6 +24,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
