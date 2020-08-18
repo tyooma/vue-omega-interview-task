@@ -1,18 +1,14 @@
-#!/usr/bin/env sh
+# abort on errors 
+set -e 
 
-# остановить публикацию при ошибках
-set -e
+# build 
+echo Linting.. 
+npm run lint 
+echo Building. this may take a minute... 
+npm run build 
 
-# сборка
-npm run build
-
-# переход в каталог сборки
-cd dist
-
-git init
-git add -A
-git commit -m 'deploy'
-
-git push -f git@github.com:tyooma/vue-omega-interview-task.git master:gh-pages
-
-cd -
+# deploy 
+echo Deploying.. 
+git add -A 
+git commit -m 'deploy' 
+git push -f https://github.com/tyooma/vue-omega-interview-task.git master
